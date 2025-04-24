@@ -7,7 +7,7 @@ import re
 
 # --- Configuration ---
 OLLAMA_ENDPOINT = "http://localhost:11434/v1/chat/completions"
-LOCAL_LLM_MODEL = "llama2-uncensored:latest"  # <--- CHANGE THIS to your desired model
+LOCAL_LLM_MODEL = "trollek/qwen2-diffusion-prompter:latest"  # <--- CHANGE THIS to your desired model
 
 # Define paths (Make sure these are correct for your setup)
 BASE_FOOCUS_PATH = Path("E:/Fooocus_win64_2-5-0/Fooocus")  # Example Base Path
